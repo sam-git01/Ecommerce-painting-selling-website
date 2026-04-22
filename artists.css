@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif, Helvetica;
+    line-height: 1.3;
+    margin: 0;
+}
+
+
+/*----------artists page start---------------------*/
+.banner{
+    display: flex;
+    height: 180px;
+    background: url(ASSETS/banner3.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+.artist-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.artist{
+    width: 250px;
+    background-color: #8b61c2;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    margin: 15px 0;
+    justify-content: center; 
+}
+.artist img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.artist h4{
+    margin-top: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+#gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery button{
+    padding: 5px 15px 5px 15px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #469785;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
